@@ -78,7 +78,6 @@ commands:
       commandLine: "./mvnw compile quarkus:dev"
       group:
         kind: run
-        isDefault: true
   - id: startnative
     exec:
       label: "Start Native"
